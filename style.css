@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+body {
+    background-color: whitesmoke;
+}
+
+.overlay-container {
+    background-color: whitesmoke;
+    text-align: center;
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+
+
+.instr {
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    color: rgb(118, 122, 122);
+    font-size: large;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+#play_btn {
+    border-radius: 16px;
+    background-color: rgb(118, 122, 122);
+    color: whitesmoke;
+    font-family: "Roboto Slab", serif;
+    font-size: large;
+    
+    border: none;
+}
+
+.guess_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#guess_box {
+    height: 50px;
+    width: 350px;
+    font-weight: normal;
+    font-family: "Roboto Slab" serif;
+    font-size: x-large;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(99, 102, 102);
+    background-color: whitesmoke;
+    color: rgb(118, 122, 122);
+    border-radius: 4px;
+    
+}
+
+#submit_btn {
+    margin-top: 5px;
+    height: 50px;
+    width: 125px;
+    padding-top: 8px;
+    background-color: rgb(118, 122, 122);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(105, 110, 110);
+    font-size: medium;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 4px;
+
+}
+
+#submit_btn:active {
+    background-color: rgb(105, 110, 110);
+}
+
+
+.verse-container {
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    color: rgb(118, 122, 122);
+}
+
+
+.output-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding: auto;
+}
+
+
+
+.guess_anwsers {
+    
+    color: rgb(118, 122, 122);
+    width: 350px;
+    height: 50px;
+    font-size: x-large;
+    font-family: "Roboto Slab", serif;
+    font-weight: normal;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(99, 102, 102);
+    border-radius: 4px;
+}

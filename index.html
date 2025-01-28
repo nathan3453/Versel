@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Versele</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    <div class="overlay-container">
+            <div class="instr">
+                <h1>Versele</h1>
+                <h2>Guess what book the verse is from</h2>
+
+            
+            <button id="play_btn">Play</button>
+            </div>
+    </div>
+     
+    <section>
+    <div class="verse-container">
+        <h1>Verse:</h1>
+        <h2 id="verse"></h2>
+    </div>
+    <div class="output-container">
+        <div id="output">
+            <div id="g_1-c" class="guess_anwsers-container">
+                <h2 id="g_1" class="guess_anwsers">1.</h2>
+            </div>
+            <div id="g_2-c" class="guess_anwsers-container">
+                <h2 id="g_2" class="guess_anwsers">2.</h2>
+            </div>
+            <div id="g_3-c" class="guess_anwsers-container">
+                <h2 id="g_3" class="guess_anwsers">3.</h2>
+            </div>
+            <div id="g_4-c" class="guess_anwsers-container">
+                <h2 id="g_4" class="guess_anwsers">4.</h2>
+            </div>
+            <div id="g_5-c" class="guess_anwsers-container">
+                <h2 id="g_5" class="guess_anwsers">5.</h2>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <div class="guess_container">
+            <input id="guess_box" type="text" list="Books">
+            <button id="submit_btn" onclick="submit_fnc()">Guess</button>
+            <datalist id="Books">
+                <option value="Genesis"></option>
+                <option value="Exodus"></option>
+                <option value="Leviticus"></option>
+                <option value="Numbers"></option>
+                <option value="Deuteronomy"></option>
+                <option value="Joshua"></option>
+                <option value="Judges"></option>
+                <option value="Ruth"></option>
+                <option value="1 Samuel"></option>
+                <option value="2 Samuel"></option>
+                <option value="1 Kings"></option>
+                <option value="2 Kings"></option>
+                <option value="1 Chronicles"></option>
+                <option value="2 Chronicles"></option>
+                <option value="Ezra"></option>
+                <option value="Nehemiah"></option>
+                <option value="Esther"></option>
+                <option value="Job"></option>
+                <option value="Psalms"></option>
+                <option value="Proverbs"></option>
+                <option value="Ecclesiastes"></option>
+                <option value="Song of Solomon"></option>
+                <option value="Isaiah"></option>
+                <option value="Jeremiah"></option>
+                <option value="Lamentations"></option>
+                <option value="Ezekiel"></option>
+                <option value="Daniel"></option>
+                <option value="Hosea"></option>
+                <option value="Joel"></option>
+                <option value="Amos"></option>
+                <option value="Obadiah"></option>
+                <option value="Jonah"></option>
+                <option value="Micah"></option>
+                <option value="Nahum"></option>
+                <option value="Habakkuk"></option>
+                <option value="Zephaniah"></option>
+                <option value="Haggai"></option>
+                <option value="Zechariah"></option>
+                <option value="Malachi"></option>
+                <option value="Matthew "></option>
+                <option value="Mark"></option>
+                <option value="Luke"></option>
+                <option value="John"></option>
+                <option value="Acts"></option>
+                <option value="Romans"></option>
+                <option value="1 Corinthians"></option>
+                <option value="2 Corinthians"></option>
+                <option value="Galatians"></option>
+                <option value="Ephesians"></option>
+                <option value="Philippians"></option>
+                <option value="Colossians"></option>
+                <option value="1 Thessalonians"></option>
+                <option value="2 Thessalonians"></option>
+                <option value="1 Timothy"></option>
+                <option value="2 Timothy"></option>
+                <option value="Titus"></option>
+                <option value="Philemon"></option>
+                <option value="Hebrews"></option>
+                <option value="James"></option>
+                <option value="1 Peter"></option>
+                <option value="2 Peter"></option>
+                <option value="1 John"></option>
+                <option value="2 John"></option>
+                <option value="3 John"></option>
+                <option value="Jude"></option>
+                <option value="Revelation"></option>
+
+            </datalist>
+        </div>
+    </section>   
+<script src="verse_api.js"></script>       
+<script src="script.js"></script>
+<script src="autocomplete.js"></script>
+</body>
+</html>
