@@ -77,3 +77,8 @@ function submit_fnc() {
 
 }
 
+function overlay_off() {
+  
+  document.getElementById("overlay").style.display = "none";
+  
+}
