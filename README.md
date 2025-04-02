@@ -13,7 +13,7 @@ Versel is a game inspired by Wordle but designed for books of the Bible. Players
 
 Versel is hosted on GitHub Pages, so you can play it directly in your browser without any downloads. 
 
-[Play Versel Now](https://nathan3453.github.io/versel)
+[Play Versel Now](https://nathan3453.github.io/Versel/)
 
 ## Technologies Used
 
